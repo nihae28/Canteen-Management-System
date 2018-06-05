@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/Lunch1_View"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="I am having lunch Today. Click on the button to go back" />
+
+    <Button
+        android:id="@+id/Lunch1_goback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/Yes_Lunch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:id="@+id/Yes_Lunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:text="Yes" />
+</RelativeLayout>

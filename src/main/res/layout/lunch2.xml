@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/Lunch2View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="I have opted not to have lunch today. Click on button to go back." />
+
+    <Button
+        android:id="@+id/Lunch2Goback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+</LinearLayout>

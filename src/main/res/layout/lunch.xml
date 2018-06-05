@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/colorPrimary">>
+
+    <TextView
+        android:id="@+id/lunch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="Are you having Lunch today?"
+        android:textColor="#f8f5f5"
+        android:textSize="25dp" />
+
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/group2"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_below="@+id/lunch_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <RadioButton
+            android:id="@+id/radioButton_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radioButton_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/group2"
+            android:layout_alignStart="@+id/group2"
+            android:layout_below="@+id/group2"
+            android:layout_marginTop="13dp"
+            android:text="No" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/Queue3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queuesatatus"
+        android:layout_below="@+id/group2"
+        android:layout_alignRight="@+id/save2"
+        android:layout_alignEnd="@+id/save2"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:id="@+id/save2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Response"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="106dp"
+        android:layout_below="@+id/group2"
+        android:layout_toRightOf="@+id/group2"
+        android:layout_toEndOf="@+id/group2" />
+
+
+</RelativeLayout>

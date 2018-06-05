@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iiitb.queuemanagementsystem">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Breakfast"/>
+        <activity android:name=".Lunch"/>
+        <activity android:name=".Dinner"/>
+        <activity android:name=".Student"/>
+        <activity android:name=".Display"/>
+        <activity android:name=".SignUp"/>
+        <activity android:name=".Lunch1"/>
+        <activity android:name=".Dinner1"/>
+        <activity android:name=".Breakfast1"/>
+        <activity android:name=".Breakfast2"/>
+        <activity android:name=".Dinner2"/>
+        <activity android:name=".Lunch2"/>
+        <activity android:name=".Orders"/>
+        <activity android:name=".Payment"/>
+        <activity android:name=".Canteen"/>
+        <activity android:name=".CanteenOrders"/>
+        <activity android:name=".Breakfast3" />
+        <activity android:name=".ForgottenPassword"/>
+        <activity android:name=".Breakfast4"/>
+        <activity android:name=".Breakfast5"/>
+        <activity android:name=".Breakfast6"/>
+        <activity android:name=".Breakfast7"/>
+        <activity android:name=".Breakfast8"/>
+        <activity android:name=".Breakfast9"/>
+        <activity android:name=".BreakfastCanteen"/>
+        <activity android:name="ResetPassword"/>
+        <activity android:name=".LunchCanteen"/>
+        <activity android:name=".DinnerCanteen"/>
+    </application>
+
+</manifest>
+

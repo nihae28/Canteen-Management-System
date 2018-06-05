@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QueueManagementSystem</string>
+    <string name="emptyString" />
+</resources>

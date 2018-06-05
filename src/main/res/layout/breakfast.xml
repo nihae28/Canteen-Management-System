@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Please choose a slot to proceed furthur"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/BACK_BF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="121dp"
+        android:text="Back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:id="@+id/radioGroup"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/BACK_BF"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slot1"
+            android:text="7:30 to 8:00"/>
+
+        <RadioButton
+            android:id="@+id/slot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 to 8:30" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slot3"
+            android:text="8:30 to 8:45"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slot4"
+            android:text="8:45 to 9:00"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slot5"
+            android:text="9:00 to 9:15"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slot6"
+            android:text="9:15 to 9:30"/>
+
+
+
+    </RadioGroup>
+
+</RelativeLayout>
